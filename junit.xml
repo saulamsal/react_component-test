@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="2" time="3.3">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2022-05-04T01:42:57" time="2.264" tests="5">
+    <testcase classname=" initial UI is rendered as expected and button works" name=" initial UI is rendered as expected and button works" time="0.071">
+    </testcase>
+    <testcase classname=" button adds notes" name=" button adds notes" time="0.021">
+    </testcase>
+    <testcase classname=" Multiple notes can be added" name=" Multiple notes can be added" time="0.019">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Movie
+Received:
+  Study
+    at Object.&lt;anonymous&gt; (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/src/App.test.js:77:43)
+    at Object.asyncJestTest (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Switching between buttons work" name=" Switching between buttons work" time="0.027">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Movie
+Received:
+  Study
+    at Object.&lt;anonymous&gt; (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/src/App.test.js:130:43)
+    at Object.asyncJestTest (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/saulamsal/Desktop/b8_12_6ba5_e93c_40b5_93be_d42016e93bf3_master/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" In active tab, dont show completed notes" name=" In active tab, dont show completed notes" time="0.015">
+    </testcase>
+  </testsuite>
+</testsuites>
